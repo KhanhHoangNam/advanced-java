@@ -1,4 +1,4 @@
-package objects;
+package object;
 
 public class Person {
     private int id;
@@ -27,10 +27,6 @@ public class Person {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Person) {
-            return ((Person) obj).getName().equals(this.name);
-        } else {
-            return false;
-        }
+        return (obj instanceof Person) && ((Person) obj).getName().equals(this.name);
     }
 }
