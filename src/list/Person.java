@@ -3,11 +3,11 @@ package list;
 public class Person {
     private int id;
 
-    public Person(int id) {
+    Person(int id) {
         this.id = id;
     }
 
-    public int getId() {
+    int getId() {
         return id;
     }
 
