@@ -1,4 +1,4 @@
 .idea/
-AdvancedJava.iml
+*.iml
 out/
 .vscode/
